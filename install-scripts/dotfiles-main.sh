@@ -1,5 +1,4 @@
 #!/bin/bash
-# 💫 https://github.com/JaKooLit 💫 #
 # Hyprland-Dots to download from main #
 
 
@@ -25,12 +24,12 @@ if [ -d Hyprland-Dots ]; then
   chmod +x copy.sh
   ./copy.sh 
 else
-  if git clone --depth=1 https://github.com/JaKooLit/Hyprland-Dots; then
+  if git clone --depth=1 https://github.com/MJorink/hypr-dots; then
     cd Hyprland-Dots || exit 1
     chmod +x copy.sh
     ./copy.sh 
   else
-    echo -e "$ERROR Can't download ${YELLOW}KooL's Hyprland-Dots${RESET} . Check your internet connection"
+    echo -e "$ERROR Can't download ${YELLOW}hypr-dots${RESET} . Check your internet connection"
   fi
 fi
 
