@@ -16,7 +16,7 @@ if ! source "$(dirname "$(readlink -f "$0")")/Global_functions.sh"; then
 fi
 
 # Check if Hyprland-Dots exists
-printf "${NOTE} Cloning and Installing ${SKY_BLUE}KooL's Hyprland Dots${RESET}....\n"
+printf "${NOTE} Cloning and Installing ${SKY_BLUE}hypr-dots${RESET}....\n"
 
 if [ -d Hyprland-Dots ]; then
   cd Hyprland-Dots
