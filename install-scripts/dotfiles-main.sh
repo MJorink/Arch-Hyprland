@@ -1,6 +1,6 @@
 #!/bin/bash
 # Hyprland-Dots to download from main #
-
+git lfs install
 
 ## WARNING: DO NOT EDIT BEYOND THIS LINE IF YOU DON'T KNOW WHAT YOU ARE DOING! ##
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
@@ -17,6 +17,7 @@ fi
 
 # Check if Hyprland-Dots exists
 printf "${NOTE} Cloning and Installing ${SKY_BLUE}hypr-dots${RESET}....\n"
+git lfs install
 
   if git clone --depth=1 https://github.com/MJorink/hypr-dotfiles; then
     cd hypr-dotfiles || exit 1
