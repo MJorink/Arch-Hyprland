@@ -18,14 +18,8 @@ fi
 # Check if Hyprland-Dots exists
 printf "${NOTE} Cloning and Installing ${SKY_BLUE}hypr-dots${RESET}....\n"
 
-if [ -d Hyprland-Dotfiles ]; then
-  cd Hyprland-Dotfiles
-  git stash && git pull
-  chmod +x copy.sh
-  ./copy.sh 
-else
   if git clone --depth=1 https://github.com/MJorink/hypr-dotfiles; then
-    cd Hyprland-Dotfiles || exit 1
+    cd hypr-dotfiles || exit 1
     chmod +x copy.sh
     ./copy.sh 
   else
