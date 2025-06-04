@@ -8,6 +8,7 @@
 
 # add packages wanted here
 Extra=(
+  git-lfs
 
 )
 
@@ -50,6 +51,7 @@ hypr_package=(
   xdg-user-dirs
   xdg-utils 
   yad
+  git-lfs
 )
 
 # the following packages can be deleted. however, dotfiles may not work properly
