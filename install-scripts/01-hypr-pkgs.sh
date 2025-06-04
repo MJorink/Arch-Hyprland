@@ -69,6 +69,7 @@ hypr_package_2=(
   pacman-contrib
   qalculate-gtk
   yt-dlp
+  git-lfs
 )
 
 # List of packages to uninstall as it conflicts some packages
