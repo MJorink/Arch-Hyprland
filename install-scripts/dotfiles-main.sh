@@ -1,7 +1,7 @@
 #!/bin/bash
 # 💫 https://github.com/JaKooLit 💫 #
 # Hyprland-Dots to download from main #
-
+# Edited to download Jorink's dots instead of Kool's dots#
 
 ## WARNING: DO NOT EDIT BEYOND THIS LINE IF YOU DON'T KNOW WHAT YOU ARE DOING! ##
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
@@ -19,18 +19,18 @@ fi
 # Check if Hyprland-Dots exists
 printf "${NOTE} Cloning and Installing ${SKY_BLUE}KooL's Hyprland Dots${RESET}....\n"
 
-if [ -d Hyprland-Dots ]; then
-  cd Hyprland-Dots
+if [ -d hypr-dotfiles ]; then
+  cd hypr-dotfiles
   git stash && git pull
   chmod +x copy.sh
   ./copy.sh 
 else
-  if git clone --depth=1 https://github.com/JaKooLit/Hyprland-Dots; then
-    cd Hyprland-Dots || exit 1
+  if git clone --depth=1 https://github.com/MJorink/hypr-dotfiles; then
+    cd hypr-dotfiles || exit 1
     chmod +x copy.sh
     ./copy.sh 
   else
-    echo -e "$ERROR Can't download ${YELLOW}KooL's Hyprland-Dots${RESET} . Check your internet connection"
+    echo -e "$ERROR Can't download ${YELLOW}Jorink's Hyprland-Dots${RESET} . Check your internet connection"
   fi
 fi
 
