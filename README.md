@@ -29,11 +29,11 @@
 </div>
 <div align="center">
 <br>
-  <a href="https://github.com/JaKooLit/Hyprland-Dots"><kbd> <br> Hyprland-Dots repo <br> </kbd></a>&ensp;&ensp;
+  <a href="https://github.com/MJorink/hypr-dotfiles"><kbd> <br> Hyprland-Dots repo <br> </kbd></a>&ensp;&ensp;
   <a href="https://www.youtube.com/playlist?list=PLDtGd5Fw5_GjXCznR0BzCJJDIQSZJRbxx"><kbd> <br> Youtube <br> </kbd></a>&ensp;&ensp;
-  <a href="https://github.com/JaKooLit/Hyprland-Dots/wiki"><kbd> <br> Wiki <br> </kbd></a>&ensp;&ensp;
-  <a href="https://github.com/JaKooLit/Hyprland-Dots/wiki/Keybinds"><kbd> <br> Keybinds <br> </kbd></a>&ensp;&ensp;
-  <a href="https://github.com/JaKooLit/Hyprland-Dots/wiki/FAQ"><kbd> <br> FAQ <br> </kbd></a>&ensp;&ensp;
+  <a href="https://github.com/MJorink/hypr-dotfiles/wiki"><kbd> <br> Wiki <br> </kbd></a>&ensp;&ensp;
+  <a href="https://github.com/MJorink/hypr-dotfiles/wiki/Keybinds"><kbd> <br> Keybinds <br> </kbd></a>&ensp;&ensp;
+  <a href="https://github.com/MJorink/hypr-dotfiles/wiki/FAQ"><kbd> <br> FAQ <br> </kbd></a>&ensp;&ensp;
   <a href="https://discord.gg/kool-tech-world"><kbd> <br> Discord <br> </kbd></a>
 </div><br>
 
@@ -60,8 +60,8 @@ https://github.com/user-attachments/assets/49bc12b2-abaf-45de-a21c-67aacd9bb872
 
     
 ### 🪧🪧🪧 ANNOUNCEMENT 🪧🪧🪧
-- This Repo does not contain Hyprland Dots or configs! Dotfiles can be checked here [`Hyprland-Dots`](https://github.com/JaKooLit/Hyprland-Dots) . During installation, if you opt to copy pre-configured dots, it will be downloaded from that centralized repo.
-- Hyprland-Dots use are constantly evolving / improving. you can check CHANGELOGS here [`Hyprland-Dots-Changelogs`](https://github.com/JaKooLit/Hyprland-Dots/wiki/Changelogs) 
+- This Repo does not contain Hyprland Dots or configs! Dotfiles can be checked here [`Hyprland-Dots`](https://github.com/MJorink/hypr-dotfiles) . During installation, if you opt to copy pre-configured dots, it will be downloaded from that centralized repo.
+- Hyprland-Dots use are constantly evolving / improving. you can check CHANGELOGS here [`Hyprland-Dots-Changelogs`](https://github.com/MJorink/hypr-dotfiles/wiki/Changelogs) 
 - Since the Hyprland-Dots are evolving, some of the screenshots maybe old
 - the wallpaper offered to be downloaded towards the end is from this [`REPO`](https://github.com/JaKooLit/Wallpaper-Bank)
 
@@ -98,7 +98,7 @@ https://github.com/user-attachments/assets/49bc12b2-abaf-45de-a21c-67aacd9bb872
 > [!IMPORTANT]
 > If you want to use nouveau driver, dont choose nvidia in the option. This is because the nvidia installer part, it will blacklist nouveau. Hyprland will still be installed but it will skip blacklisting nouveau.
 
-- After installation, check [`THIS`](https://github.com/JaKooLit/Hyprland-Dots/wiki/Notes_to_remember#--for-nvidia-gpu-users)
+- After installation, check [`THIS`](https://github.com/MJorink/hypr-dotfiles/wiki/Notes_to_remember#--for-nvidia-gpu-users)
 
 ## ✨ Auto clone and install
 > [!CAUTION] 
@@ -142,13 +142,13 @@ source ~/.zshrc
 
 #### ✨ TO DO once installation done and dotfiles copied
 - SUPER H for HINT or click on the waybar HINT! Button 
-- Head over to [KooL Hyprland WIKI](https://github.com/JaKooLit/Hyprland-Dots/wiki)
+- Head over to [KooL Hyprland WIKI](https://github.com/MJorink/hypr-dotfiles/wiki)
 
 #### 🙋 Got a questions regarding the Hyprland Dots or configurations? 🙋
-- Head over to wiki Link [`WIKI`](https://github.com/JaKooLit/Hyprland-Dots/wiki)
+- Head over to wiki Link [`WIKI`](https://github.com/MJorink/hypr-dotfiles/wiki)
 
 #### ⌨ Keybinds
-- Keybinds [`CLICK`](https://github.com/JaKooLit/Hyprland-Dots/wiki/Keybinds)
+- Keybinds [`CLICK`](https://github.com/MJorink/hypr-dotfiles/wiki/Keybinds)
 
 > [!TIP]
 > KooL Hyprland has a searchable keybind function via rofi. (SUPER SHIFT K) or right click the `HINTS` waybar button
@@ -161,7 +161,7 @@ source ~/.zshrc
 
 #### 🙋 👋 Having issues or questions? 
 - for the install part, kindly open issue on this repo
-- for the Pre-configured Hyprland dots / configuration, submit issue [`here`](https://github.com/JaKooLit/Hyprland-Dots/issues)
+- for the Pre-configured Hyprland dots / configuration, submit issue [`here`](https://github.com/MJorink/hypr-dotfiles/issues)
 
 #### 🔧 Proper way to re-installing a particular script from install-scripts directory
 - CD into Arch-Hyprland directory and then ran the below command. 
@@ -208,7 +208,7 @@ env = WLR_RENDERER_ALLOW_SOFTWARE,1
 
 
 #### 🫥 Improving performance for Older Nvidia Cards using driver 470
-  - [`SEE HERE`](https://github.com/JaKooLit/Hyprland-Dots/discussions/123#discussion-6035205)
+  - [`SEE HERE`](https://github.com/MJorink/hypr-dotfiles/discussions/123#discussion-6035205)
 
 #### 📒 Final Notes
 - join my discord channel [`Discord`](https://discord.com/invite/kool-tech-world)
@@ -218,8 +218,8 @@ env = WLR_RENDERER_ALLOW_SOFTWARE,1
 
 #### ✍️ Contributing
 - As stated above, these script does not contain actual config files. These are only the installer of packages
-- If you want to contribute and/or test the Hyprland-Dotfiles (development branch), [`Hyprland-Dots-Development`](https://github.com/JaKooLit/Hyprland-Dots/tree/development)
-- Want to contribute on KooL-Hyprland-Dots Click [`HERE`](https://github.com/JaKooLit/Hyprland-Dots/blob/main/CONTRIBUTING.md) for a guide how to contribute
+- If you want to contribute and/or test the Hyprland-Dotfiles (development branch), [`Hyprland-Dots-Development`](https://github.com/MJorink/hypr-dotfiles/tree/development)
+- Want to contribute on KooL-Hyprland-Dots Click [`HERE`](https://github.com/MJorink/hypr-dotfiles/blob/main/CONTRIBUTING.md) for a guide how to contribute
 - Want to contribute on This Installer? Click [`HERE`](https://github.com/JaKooLit/Arch-Hyprland/blob/main/CONTRIBUTING.md) for a guide how to contribute
 
 #### 👍👍👍 Thanks and Credits!
