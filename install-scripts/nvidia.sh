@@ -3,7 +3,7 @@
 # Nvidia Stuffs #
 
 nvidia_pkg=(
-  nvidia-dkms
+  nvidia-open-dkms
   nvidia-settings
   nvidia-utils
   libva
