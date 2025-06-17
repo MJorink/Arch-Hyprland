@@ -26,6 +26,5 @@ git lfs install
   else
     echo -e "$ERROR Can't download ${YELLOW}Jorink's Hyprland-Dots${RESET} . Check your internet connection"
   fi
-fi
 
 printf "\n%.0s" {1..2}
